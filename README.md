@@ -2,57 +2,60 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Menús de Arte Monet</title>
+    <title>Mis Menús de Arte</title>
     <style>
         body {
             display: flex;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
-            background-color: #edeff2;
+            background-color: #2c3e50;
             padding: 40px;
-            font-family: 'Georgia', serif;
+            font-family: 'Segoe UI', sans-serif;
         }
         .menu-card {
-            width: 400px;
+            /* Medidas obligatorias */
+            width: 400px; 
             height: 550px;
+            /* Margen, Padding y Borde solicitados */
             margin: 20px;
             padding: 30px;
-            border: 8px double #34495e;
+            border: 10px double #ffffff; 
             box-sizing: border-box;
             color: white;
-            text-shadow: 2px 2px 4px rgba(0,0,0,1);
-            border-radius: 12px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.9);
+            border-radius: 15px;
+            /* Propiedades de fondo solicitadas */
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
         }
         .breakfast {
-            background-image: url("Copia%20de%20Claude-Monet-The-Waterlily-Pond-with-the-Japanese-Bridge-1899.jpg");
+            background-image: url("Copia de Claude-Monet-The-Waterlily-Pond-with-the-Japanese-Bridge-1899.jpg");
         }
         .lunch {
-            background-image: url("Copia%20de%20MB-Mon-21_Monet_Steilkueste-von-Aval_1%202.jpg");
+            background-image: url("Copia de MB-Mon-21_Monet_Steilkueste-von-Aval_1 2.jpg");
         }
         .dinner {
             background-image: url("cc4512ce9e2845f140221c0baa3de41e.jpg");
         }
         h1 { 
             text-align: center; 
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             margin-top: 0;
-            border-bottom: 1px solid rgba(255,255,255,0.5);
-            padding-bottom: 10px;
+            border-bottom: 2px solid white;
         }
-        ul { list-style: none; padding: 0; margin-top: 40px; }
+        ul { list-style: none; padding: 0; margin-top: 30px; }
         li { 
-            margin-bottom: 25px; 
+            margin-bottom: 20px; 
             padding: 10px;
-            background: rgba(0, 0, 0, 0.5); /* Fondo oscuro para leer el texto sobre la pintura */
+            background: rgba(0, 0, 0, 0.6); /* Esto hace que el texto se lea perfecto */
             border-radius: 8px;
         }
         strong { display: block; font-size: 1.2rem; color: #f1c40f; }
-        span { font-size: 0.9rem; font-style: italic; }
+        span { font-size: 0.9rem; font-style: italic; color: #ecf0f1; }
     </style>
 </head>
 <body>
@@ -61,7 +64,7 @@
         <ul>
             <li><strong>Waterlily Eggs</strong> <span>Omelette con hierbas de Giverny.</span></li>
             <li><strong>Bridge Toast</strong> <span>Pan artesanal con mermelada.</span></li>
-            <li><strong>Morning Tea</strong> <span>Selección de tés frutales.</span></li>
+            <li><strong>Artist Tea</strong> <span>Selección de tés frutales.</span></li>
         </ul>
     </div>
     <div class="menu-card lunch">
