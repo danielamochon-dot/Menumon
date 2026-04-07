@@ -70,3 +70,18 @@
     <div class="menu-card lunch">
         <h1>Lunch</h1>
         <ul>
+            <li><strong>Cliffside Salad</strong> <span>Vegetales frescos y aderezo cítrico.</span></li>
+            <li><strong>Ocean Salmon</strong> <span>Salmón sellado con costra de hierbas.</span></li>
+            <li><strong>Azure Drink</strong> <span>Limonada refrescante de menta.</span></li>
+        </ul>
+    </div>
+    <div class="menu-card dinner">
+        <h1>Dinner</h1>
+        <ul>
+            <li><strong>Silk Steak</strong> <span>Corte de res premium en salsa de vino.</span></li>
+            <li><strong>Velvet Pasta</strong> <span>Pasta cremosa con aceite de trufa.</span></li>
+            <li><strong>Royal Wine</strong> <span>Copa de vino tinto reserva.</span></li>
+        </ul>
+    </div>
+</body>
+</html>
